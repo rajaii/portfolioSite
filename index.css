@@ -1,3 +1,67 @@
+.body {
+    background-color: #1b1f22;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    margin-left: -8px;
+}
+.nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.anch {
+    font-size: 3rem;
+    text-decoration: none;
+    color: purple;
+    font-family: Verdana; 
+    margin: 50px;
+    
+}
+
 .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: darkcyan;
+    margin-top: 10px;
+}
+.imgDiv {
+    display: flex;
+    margin-top: 140px;
+}
+
+.pic {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.parallax1 {
+    /* The image used */
+  background-image: url("./images/blue-flowers.jpg");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fstPara {
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.scroll {
+    font-size: 1.5rem;
+    color: white;
     text-align: center;
 }
