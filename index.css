@@ -42,7 +42,7 @@
 
 .parallax1 {
     /* The image used */
-  background-image: url("./images/blue-flowers.jpg");
+  background-image: url("./images/water-lily-2334209.jpg");
 
   /* Set a specific height */
   height: 800px;
@@ -62,6 +62,65 @@
 
 .scroll {
     font-size: 1.5rem;
-    color: white;
+    color:greenyellow;
     text-align: center;
+    font-family: Georgia;
+}
+
+.parallax2 {
+    background-image: url("./images/indra-dewa-g-CfYCT1kM0-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introP {
+    color: white;
+    font-size: 1.25rem;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.introP1 {
+    margin-top: 50px;
+}
+
+.introA {
+    text-decoration: none;
+    color: darkturquoise;
+}
+
+.form {
+    margin-top: 200px;
+    color: white;
+    font-size: 1.25rem;
+
+}
+
+.formDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.btnFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.btn1 {
+    background-color: darkviolet;
+}
+
+.btn2 {
+    background-color: firebrick;
 }
