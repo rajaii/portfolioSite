@@ -249,6 +249,181 @@
     .introP {
         width: 75%;
     }
+    .aboutsec {
+        width: 85%;
+    }
+    .workp {
+        width: 85%;
+        margin-top: -100px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 17rem;
+        width: 23rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    .br1 {
+        display: none;
+    }
+    .br2 {
+        display: none;
+    }
+    .br3 {
+        display: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 650px) and (min-width : 500px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .anch {
+        font-size: 1.5rem;
+        margin: 24px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .pic {
+        display: none;
+    }
+    .parallax2 {
+        height: 1000px;
+    }
+    .aboutsec {
+        width: 85%;
+    }
+    .workp {
+        width: 85%;
+        margin-top: 0px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 20rem;
+        width: 30rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 800px) and (min-width : 650px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -16px;
+    }
+    .anch {
+        font-size: 2rem;
+        margin: 30px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .parallax2 {
+        height: 1000px;
+    }
+    .aboutsec {
+        width: 85%;
+    }
+    .workp {
+        width: 85%;
+        margin-top: 0px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 20rem;
+        width: 30rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    
+    
+  }
+
+  @media only screen and (max-width: 950px) and (min-width : 800px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -16px;
+    }
+    .anch {
+        font-size: 2.25rem;
+        margin: 30px;
+    }
+    .title {
+        font-size: 2rem;
+        margin-top: -10px;
+    }
+    
+    .parallax2 {
+        height: 1000px;
+    }
+    .workpic {
+        height: 18rem;
+        width: 22rem;
+    }
+    .workdiv {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .br1 {
+        display: none;
+    }
+    .br2 {
+        display: none;
+    }
+    .br3 {
+        display: none;
+    }
 
 
+  }
+
+  @media only screen and (min-width : 950px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -16px;
+    }
+    .anch {
+        font-size: 2.75rem;
+        margin: 30px;
+    }
+    .title {
+        font-size: 2rem;
+        margin-top: -10px;
+    }
+    
+    .parallax2 {
+        height: 1000px;
+    }
   }
