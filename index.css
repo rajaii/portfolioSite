@@ -101,7 +101,7 @@
 }
 
 .introP1 {
-    margin-top: 267px;
+    margin-top: 800px;
     
 }
 
@@ -242,7 +242,7 @@
         margin-top: -139px;
     }
     .parallax2 {
-        height: 1139px;
+        height: 1580px;
         width: 104%
     }
 
@@ -284,6 +284,9 @@
   }
 
   @media only screen and (max-width: 650px) and (min-width : 500px) {
+      .sticky {
+          position: relative;
+      }
     .nav {
         display: flex;
         justify-content: center;
@@ -298,8 +301,11 @@
     .pic {
         display: none;
     }
+    .parallax1 {
+        margin-top: -140px;
+    }
     .parallax2 {
-        height: 1000px;
+        height: 1580px;
     }
     .aboutsec {
         width: 85%;
@@ -327,6 +333,10 @@
   }
 
   @media only screen and (max-width: 800px) and (min-width : 650px) {
+    .sticky {
+        position: relative;
+        width: 101%;
+    }
     .nav {
         display: flex;
         justify-content: center;
@@ -338,10 +348,14 @@
     }
     .title {
         font-size: 1.5rem;
+        margin-top: -10px;
+    }
+    .imgDiv {
+        margin-top: 0px;
     }
     
     .parallax2 {
-        height: 1000px;
+        height: 1580px;
     }
     .aboutsec {
         width: 85%;
@@ -370,6 +384,9 @@
   }
 
   @media only screen and (max-width: 950px) and (min-width : 800px) {
+      .sticky {
+          width: 101%;
+      }
     .nav {
         display: flex;
         justify-content: center;
@@ -385,7 +402,7 @@
     }
     
     .parallax2 {
-        height: 1000px;
+        height: 1580px;
     }
     .workpic {
         height: 18rem;
@@ -424,6 +441,6 @@
     }
     
     .parallax2 {
-        height: 1000px;
+        height: 1200px;
     }
   }
