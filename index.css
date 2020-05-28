@@ -8,10 +8,11 @@
     width: 100%;
     background-color: black;
     margin-left: -8px;
+    height: 126px;
 }
 .nav {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .anch {
@@ -38,6 +39,7 @@
     height: 250px;
     width: 250px;
     margin: 0 auto;
+    margin-top: -13px;
 }
 
 .parallax1 {
@@ -45,13 +47,16 @@
   background-image: url("./images/water-lily-2334209.jpg");
 
   /* Set a specific height */
-  height: 800px;
+  height: 600px;
+  width: 102%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -14px;
+  margin-left: -8px;
 }
 
 .fstPara {
@@ -71,7 +76,8 @@
     background-image: url("./images/indra-dewa-g-CfYCT1kM0-unsplash.jpg");
 
   /* Set a specific height */
-  height: 800px;
+  height: 650px;
+  width: 102%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -81,26 +87,36 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: -8px;
 }
 
 .introP {
-    color: white;
+    color: black;
     font-size: 1.25rem;
-    padding-right: 200px;
-    padding-left: 200px;
+    background-color: white;
+    padding: 0;
+    width: 50%;
+    align-self: center;
+    
 }
 
 .introP1 {
-    margin-top: 50px;
+    margin-top: 800px;
+    
+}
+
+.opa {
+    opacity: .8;
 }
 
 .introA {
     text-decoration: none;
     color: darkturquoise;
+    background-color: transparent;
 }
 
 .form {
-    margin-top: 200px;
+    margin-top: 150px;
     color: white;
     font-size: 1.25rem;
 
@@ -124,3 +140,307 @@
 .btn2 {
     background-color: firebrick;
 }
+.form label {
+    font-size: 2rem;
+}
+
+.aboutsecdiv {
+    margin-top: 136px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.techpic {
+    width: 100%;
+}
+
+.aboutsec {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1.25rem;    
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.worksection {
+    margin-top: 172px;
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.workp {
+    width: 50%;
+}
+
+.workpic {
+    width: 29rem;
+    height: 20rem;
+}
+
+.workdivwrapper1 {
+    display: flex;
+    justify-content: center;
+}
+
+.workdivwrapper2 {
+    display: flex;
+    justify-content: center;
+}
+
+.workdiv {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.workpicp {
+    font-size: 1rem;
+    color: white;
+}
+
+.contactfooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .pic {
+        display: none;
+    }
+    .sticky {
+        background-color: black;
+        margin-left: -8px;
+        height: 350px;
+        position: relative;
+        width: 104%;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .anch {
+        width: 100%;
+        margin: 0;
+        border: 1px solid white;
+    }
+    .parallax1 {
+        width: 104%;
+        margin-top: -139px;
+    }
+    .parallax2 {
+        height: 1580px;
+        width: 104%
+    }
+
+    .introP {
+        width: 75%;
+    }
+    .aboutsec {
+        width: 85%;
+    }
+    .workp {
+        width: 85%;
+        margin-top: -100px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 17rem;
+        width: 23rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    .br1 {
+        display: none;
+    }
+    .br2 {
+        display: none;
+    }
+    .br3 {
+        display: none;
+    }
+    
+  }
+
+  @media only screen and (max-width: 650px) and (min-width : 500px) {
+      .sticky {
+          position: relative;
+      }
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .anch {
+        font-size: 1.5rem;
+        margin: 24px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .pic {
+        display: none;
+    }
+    .parallax1 {
+        margin-top: -140px;
+    }
+    .parallax2 {
+        height: 1580px;
+    }
+    .aboutsec {
+        width: 85%;
+    }
+    .workp {
+        width: 85%;
+        margin-top: 0px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 20rem;
+        width: 30rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 800px) and (min-width : 650px) {
+    .sticky {
+        position: relative;
+        width: 101%;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -16px;
+    }
+    .anch {
+        font-size: 2rem;
+        margin: 30px;
+    }
+    .title {
+        font-size: 1.5rem;
+        margin-top: -10px;
+    }
+    .imgDiv {
+        margin-top: 0px;
+    }
+    
+    .parallax2 {
+        height: 1580px;
+    }
+    .aboutsec {
+        width: 85%;
+    }
+    .workp {
+        width: 85%;
+        margin-top: 0px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 20rem;
+        width: 30rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    
+    
+  }
+
+  @media only screen and (max-width: 950px) and (min-width : 800px) {
+      .sticky {
+          width: 101%;
+      }
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -16px;
+    }
+    .anch {
+        font-size: 2.25rem;
+        margin: 30px;
+    }
+    .title {
+        font-size: 2rem;
+        margin-top: -10px;
+    }
+    
+    .parallax2 {
+        height: 1580px;
+    }
+    .workpic {
+        height: 18rem;
+        width: 22rem;
+    }
+    .workdiv {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .br1 {
+        display: none;
+    }
+    .br2 {
+        display: none;
+    }
+    .br3 {
+        display: none;
+    }
+
+
+  }
+
+  @media only screen and (min-width : 950px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        margin-top: -16px;
+    }
+    .anch {
+        font-size: 2.75rem;
+        margin: 30px;
+    }
+    .title {
+        font-size: 2rem;
+        margin-top: -10px;
+    }
+    
+    .parallax2 {
+        height: 1200px;
+    }
+  }
