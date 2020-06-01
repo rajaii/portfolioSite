@@ -2,9 +2,12 @@ let btn = document.querySelector(".btn1")
 let form = document.querySelector('.form')
 btn.addEventListener('click', () => {
     console.log('in')
-    form.reset()
+    
     alert('Your will now be sent.  Thank you for contacting me')
+    // form.reset()
 })
+
+
 
 let headings = document.querySelectorAll(".anch")
 
