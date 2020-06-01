@@ -24,6 +24,10 @@
     
 }
 
+.gA {
+    text-decoration: none;
+}
+
 .title {
     text-align: center;
     font-size: 2.5rem;
@@ -214,7 +218,167 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 350px) {
+    .dA {
+        font-size: 1.2rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+
+    .pic {
+        display: none;
+    }
+    .last {
+        font-size: 1.2rem;
+    }
+    .sticky {
+        background-color: black;
+        margin-left: -8px;
+        height: 350px;
+        position: relative;
+        width: 108%;
+    }
+    .form {
+        width: 95%;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .anch {
+        width: 100%;
+        margin: 0;
+        border: 1px solid white;
+    }
+    .parallax1 {
+        width: 104%;
+        margin-top: -139px;
+    }
+    .parallax2 {
+        height: 1580px;
+        width: 104%
+    }
+
+    .introP {
+        width: 75%;
+    }
+    .aboutsec {
+        width: 85%;
+        margin-top: -96px;
+    }
+    .workp {
+        width: 85%;
+        margin-top: -100px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 14rem;
+        width: 18rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    .br1 {
+        display: none;
+    }
+    .br2 {
+        display: none;
+    }
+    .br3 {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) and (min-width: 350px) {
+    .pic {
+        display: none;
+    }
+    .sticky {
+        background-color: black;
+        margin-left: -8px;
+        height: 350px;
+        position: relative;
+        width: 104%;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .techpic {
+        margin-top: -96px;
+    }
+    .anch {
+        width: 100%;
+        margin: 0;
+        border: 1px solid white;
+    }
+    .parallax1 {
+        width: 104%;
+        margin-top: -139px;
+    }
+    .parallax2 {
+        height: 1580px;
+        width: 104%
+    }
+
+    .introP {
+        width: 75%;
+    }
+    .aboutsec {
+        width: 85%;
+        
+    }
+    .workp {
+        width: 85%;
+        margin-top: -100px;
+    }
+    .workdivwrapper1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workdivwrapper2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workpic {
+        height: 14rem;
+        width: 18rem;
+    }
+    .workdiv {
+        margin-left: 30px;
+    }
+    .br1 {
+        display: none;
+    }
+    .br2 {
+        display: none;
+    }
+    .br3 {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) and (min-width: 400px) {
     .pic {
         display: none;
     }
@@ -279,6 +443,9 @@
     }
     .br3 {
         display: none;
+    }
+    .techpic {
+        margin-top: -96px;
     }
     
   }
